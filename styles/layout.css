@@ -1,0 +1,133 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #000000;
+}
+
+.about{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main > img{
+  width: 320px;
+}
+
+.main{
+  width: 320px;
+  display: flex;
+  position: absolute;
+}
+
+.logo > img{
+  width: 150px;
+}
+
+.logo {
+  width: 320px;
+  margin-top: -227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eternal > img{
+  width: 75px;
+}
+
+.eternal{
+  width: 75px;
+  margin-top: 150px;
+  margin-left: 120px;
+  display: flex;
+}
+
+.suggest-header{
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.suggest-paragraph{
+  color: #ffffff;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+.fast > img{
+  width: 75px;
+}
+
+.fast{
+  width: 75px;
+  margin-top: 30px;
+  margin-left: 120px;
+  display: flex;
+}
+
+.advantages-header{
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.advantages-paragraph{
+  color: #ffffff;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+.safe > img{
+  width: 75px;
+}
+
+.safe{
+  width: 75px;
+  margin-top: 30px;
+  margin-left: 120px;
+  display: flex;
+}
+
+.safeness-header{
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.safeness-paragraph{
+  color: #ffffff;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}

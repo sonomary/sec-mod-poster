@@ -140,27 +140,13 @@
          align-items: center;
     }
      .about{
-         font-family: 'Ubuntu', sans-serif;
          font-size: 14px;
-         justify-content: center;
-         align-items: center;
-         color: #ffffff;
-         margin-top: 5px;
-         display: flex;
-         flex-direction: column;
-    }
-     .eternity-sign, .safety-sign, .speed-sign {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
     }
      .eternal > img{
          width: 75%;
     }
      .eternal{
          width: 25%;
-         display: flex;
          margin-left: 45px;
     }
      .fast > img{
@@ -170,7 +156,6 @@
          width: 40%;
          margin-top: 70px;
          margin-left: 170px;
-         display: flex;
     }
      .safe > img{
          width: 40%;
@@ -179,71 +164,38 @@
          width: 40%;
          margin-top: 70px;
          margin-left: 190px;
-         display: flex;
     }
      .suggestion{
-         color: #ffffff;
-         font-family:'Ubuntu', sans-serif;
          font-size: 35px;
-         text-align: left;
     }
      .suggestion h2 {
-         margin-left: 50px;
          font-size: 40px;
     }
      .suggestion p{
-         color: #ffffff;
          font-family:'Ubuntu', sans-serif;
          font-size: 20px;
-         margin-left: 50px;
-         margin-top: 5px;
-         width: 80%;
     }
      .speed{
-         color: #ffffff;
-         font-family:'Ubuntu', sans-serif;
          font-size: 35px;
-         text-align: left;
     }
      .speed h2 {
-         margin-left: 50px;
          font-size: 40px;
     }
      .speed p{
-         color: #ffffff;
-         font-family:'Ubuntu', sans-serif;
          font-size: 20px;
-         margin-left: 50px;
-         margin-top: 5px;
-         width: 80%;
     }
      .safety{
-         color: #ffffff;
-         font-family:'Ubuntu', sans-serif;
          font-size: 35px;
-         text-align: left;
     }
      .safety h2 {
          margin-left: 50px;
          font-size: 40px;
     }
      .safety p{
-         color: #ffffff;
-         font-family:'Ubuntu', sans-serif;
          font-size: 20px;
-         margin-left: 50px;
-         margin-top: 5px;
-         width: 80%;
     }
      h3{
-         font-family: 'Ubuntu', sans-serif;
          font-size: 18px;
-         justify-content: center;
-         align-items: center;
-         color: #ffffff;
-         margin-top: 10px;
-         display: flex;
-         flex-direction: column;
     }
      h3:first-of-type {
          margin-top: 80px;
@@ -259,21 +211,11 @@
              align-items: center;
         }
          .about{
-             font-family: 'Ubuntu', sans-serif;
              font-size: 20px;
-             justify-content: center;
-             align-items: center;
-             color: #ffffff;
              margin-top: 5px;
-             display: flex;
-             flex-direction: column;
+
         }
-         .eternity-sign, .safety-sign, .speed-sign {
-             display: flex;
-             justify-content: center;
-             align-items: center;
-             flex-direction: column;
-        }
+
          .eternal > img{
              width: 75%;
         }
@@ -288,7 +230,6 @@
              width: 40%;
              margin-top: 140px;
              margin-left: 240px;
-             display: flex;
         }
          .safe > img{
              width: 50%;
@@ -297,11 +238,8 @@
              width: 50%;
              margin-top: 140px;
              margin-left: 260px;
-             display: flex;
         }
          .suggestion{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 35px;
              text-align: left;
         }
@@ -310,16 +248,12 @@
              font-size: 65px;
         }
          .suggestion p{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 30px;
              margin-left: 50px;
              margin-top: 5px;
              width: 80%;
         }
          .speed{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 35px;
              text-align: left;
         }
@@ -328,16 +262,12 @@
              font-size: 65px;
         }
          .speed p{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 35px;
              margin-left: 50px;
              margin-top: 5px;
              width: 80%;
         }
          .safety{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 65px;
              text-align: left;
         }
@@ -346,22 +276,14 @@
              font-size: 80px;
         }
          .safety p{
-             color: #ffffff;
-             font-family:'Ubuntu', sans-serif;
              font-size: 35px;
              margin-left: 50px;
              margin-top: 5px;
              width: 80%;
         }
          h3{
-             font-family: 'Ubuntu', sans-serif;
              font-size: 25px;
-             justify-content: center;
-             align-items: center;
-             color: #ffffff;
              margin-top: 10px;
-             display: flex;
-             flex-direction: column;
         }
          h3:first-of-type {
              margin-top: 100px;
@@ -379,12 +301,6 @@
              .about{
                  font-size: 25px;
             }
-             .eternity-sign, .safety-sign, .speed-sign {
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-                 flex-direction: column;
-            }
              .eternal > img{
                  width: 75%;
             }
@@ -399,7 +315,6 @@
                  width: 40%;
                  margin-top: 140px;
                  margin-left: 350px;
-                 display: flex;
             }
              .safe > img{
                  width: 60%;
@@ -408,11 +323,8 @@
                  width: 60%;
                  margin-top: 140px;
                  margin-left: 370px;
-                 display: flex;
             }
              .suggestion{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 35px;
                  text-align: left;
             }
@@ -421,16 +333,12 @@
                  font-size: 80px;
             }
              .suggestion p{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 40px;
                  margin-left: 50px;
                  margin-top: 5px;
                  width: 80%;
             }
              .speed{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 35px;
                  text-align: left;
             }
@@ -439,16 +347,12 @@
                  font-size: 80px;
             }
              .speed p{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 40px;
                  margin-left: 50px;
                  margin-top: 5px;
                  width: 80%;
             }
              .safety{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 65px;
                  text-align: left;
             }
@@ -457,22 +361,14 @@
                  font-size: 80px;
             }
              .safety p{
-                 color: #ffffff;
-                 font-family:'Ubuntu', sans-serif;
                  font-size: 40px;
                  margin-left: 50px;
                  margin-top: 5px;
                  width: 80%;
             }
              h3{
-                 font-family: 'Ubuntu', sans-serif;
                  font-size: 30px;
-                 justify-content: center;
-                 align-items: center;
-                 color: #ffffff;
                  margin-top: 10px;
-                 display: flex;
-                 flex-direction: column;
             }
              h3:first-of-type {
                  margin-top: 100px;

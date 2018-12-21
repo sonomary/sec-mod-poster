@@ -19,40 +19,73 @@ body {
 }
 
 .header > img{
-  width: 320px;
+  width: 100%;
 }
 
 .header{
-  width: 320px;
   display: flex;
-  position: absolute;
 }
 
 .eternal > img{
-  width: 75px;
+  width: 75%;
 }
 
 .eternal{
-  width: 75px;
-  margin-top: 300px;
-  margin-left: 120px;
+  width: 36%;
   display: flex;
+  margin-left: 25px;
 }
 
-.suggest-header{
-  color: white;
+h2 {
+  font-size: 30px;
+  color: #fff;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.suggestion{
+  color: #ffffff;
   font-family:'Ubuntu', sans-serif;
   font-size: 35px;
-  margin-left: 20px;
+  text-align: left;
 }
 
-.suggest-paragraph{
+.suggestion h2 {
+  margin-left: 50px;
+}
+
+.suggestion p{
   color: #ffffff;
   font-family:'Ubuntu', sans-serif;
   font-size: 16px;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 5px;
-  line-height: 16px;
+  width: 80%;
+}
+
+.speed h2 {
+  margin-left: 50px;
+}
+
+.speed p{
+  color: #ffffff;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+.safety h2 {
+  margin-left: 50px;
+}
+
+.safety p{
+  color: #ffffff;
+  font-family:'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 5px;
+  width: 80%;
 }
 
 .fast > img{
@@ -62,7 +95,6 @@ body {
 .fast{
   width: 75px;
   margin-top: 30px;
-  margin-left: 120px;
   display: flex;
 }
 
@@ -73,15 +105,6 @@ body {
   margin-left: 20px;
 }
 
-.advantages-paragraph{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 16px;
-  margin-left: 20px;
-  margin-top: 5px;
-  line-height: 16px;
-}
-
 .safe > img{
   width: 75px;
 }
@@ -89,7 +112,6 @@ body {
 .safe{
   width: 75px;
   margin-top: 30px;
-  margin-left: 120px;
   display: flex;
 }
 
@@ -104,9 +126,18 @@ body {
   color: #ffffff;
   font-family:'Ubuntu', sans-serif;
   font-size: 16px;
-  margin-left: 20px;
+  /* margin-left: 50px; */
   margin-top: 5px;
-  line-height: 16px;
+
+}
+
+.eternity-sign,
+.safety-sign,
+.speed-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h3{
@@ -122,14 +153,42 @@ h3{
 
 @media (min-width: 768px) {
   .header > img{
-    width: 768px;
+    width: 100%;
   }
 
   .header{
-    width: 768px;
+    width: 100%;
     display: flex;
-    position: absolute;
+   justify-content: center;
+   align-items: center;
   }
 
+  .about{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .eternity-sign,
+  .safety-sign,
+  .speed-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  p {
+    text-align: left;
+    font-size: 26px;
+  }
+
+  h3{
+
+  }
   }

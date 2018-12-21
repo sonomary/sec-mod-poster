@@ -299,4 +299,145 @@ h3:first-of-type {
     margin-top: 80px;
   }
 
+@media (min-width: 1024px){
+  .header > img{
+    width: 100%;
+  }
+
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eternity-sign,
+  .safety-sign,
+  .speed-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .eternal > img{
+    width: 75%;
+  }
+
+  .eternal{
+    width: 25%;
+    margin-left: 80px;
+
+  }
+
+  .fast > img{
+    width: 40%;
+  }
+
+  .fast{
+    width: 40%;
+    margin-top: 140px;
+    margin-left: 250px;
+    display: flex;
+  }
+
+  .safe > img{
+    width: 50%;
+  }
+
+  .safe{
+    width: 50%;
+    margin-top: 140px;
+    margin-left: 280px;
+    display: flex;
+  }
+
+  .suggestion{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .suggestion h2 {
+    margin-left: 50px;
+    font-size: 65px;
+  }
+
+  .suggestion p{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 80%;
+  }
+  .speed{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .speed h2 {
+    margin-left: 50px;
+    font-size: 65px;
+  }
+
+  .speed p{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 80%;
+  }
+
+  .safety{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 65px;
+    text-align: left;
+  }
+
+  .safety h2 {
+    margin-left: 50px;
+    font-size: 80px;
+  }
+
+  .safety p{
+    color: #ffffff;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 80%;
+  }
+
+  h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3:first-of-type {
+    margin-top: 100px;
+  }
+
   }

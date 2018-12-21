@@ -1,577 +1,480 @@
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
 }
-body {
-  background: #000000;
-  background-image: url("../images/background.svg");
+ body {
+     background: #000000;
+     background-image: url("../images/background.svg");
 }
-
-.about{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 10px;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
+ .about{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 10px;
+     justify-content: center;
+     align-items: center;
+     color: #ffffff;
+     margin-top: 5px;
+     display: flex;
+     flex-direction: column;
 }
-
-.header > img{
-  width: 100%;
+ .header > img{
+     width: 100%;
 }
-
-.header{
-  display: flex;
+ .header{
+     display: flex;
 }
-
-.eternal > img{
-  width: 75%;
+ .eternal > img{
+     width: 75%;
 }
-
-.eternal{
-  width: 36%;
-  display: flex;
-  margin-left: 25px;
+ .eternal{
+     width: 36%;
+     display: flex;
+     margin-left: 25px;
 }
-
-h2 {
-  font-size: 30px;
-  color: #fff;
-  font-family:'Ubuntu', sans-serif;
+ h2 {
+     font-size: 30px;
+     color: #fff;
+     font-family:'Ubuntu', sans-serif;
 }
-
-.suggestion{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 35px;
-  text-align: left;
+ .suggestion{
+     color: #ffffff;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 35px;
+     text-align: left;
 }
-
-.suggestion h2 {
-  margin-left: 50px;
+ .suggestion h2 {
+     margin-left: 50px;
 }
-
-.suggestion p{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 16px;
-  margin-left: 50px;
-  margin-top: 5px;
-  width: 80%;
+ .suggestion p{
+     color: #ffffff;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 16px;
+     margin-left: 50px;
+     margin-top: 5px;
+     width: 80%;
 }
-
-.speed h2 {
-  margin-left: 50px;
+ .speed h2 {
+     margin-left: 50px;
 }
-
-.speed p{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 16px;
-  margin-left: 50px;
-  margin-top: 5px;
-  width: 80%;
+ .speed p{
+     color: #ffffff;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 16px;
+     margin-left: 50px;
+     margin-top: 5px;
+     width: 80%;
 }
-
-.safety h2 {
-  margin-left: 50px;
+ .safety h2 {
+     margin-left: 50px;
 }
-
-.safety p{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 16px;
-  margin-left: 50px;
-  margin-top: 5px;
-  width: 80%;
+ .safety p{
+     color: #ffffff;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 16px;
+     margin-left: 50px;
+     margin-top: 5px;
+     width: 80%;
 }
-
-.fast > img{
-  width: 75px;
+ .fast > img{
+     width: 75px;
 }
-
-.fast{
-  width: 75px;
-  margin-top: 30px;
-  display: flex;
+ .fast{
+     width: 75px;
+     margin-top: 30px;
+     display: flex;
 }
-
-.advantages-header{
-  color: white;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 35px;
-  margin-left: 20px;
+ .advantages-header{
+     color: white;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 35px;
+     margin-left: 20px;
 }
-
-.safe > img{
-  width: 75px;
+ .safe > img{
+     width: 75px;
 }
-
-.safe{
-  width: 75px;
-  margin-top: 30px;
-  display: flex;
+ .safe{
+     width: 75px;
+     margin-top: 30px;
+     display: flex;
 }
-
-.safeness-header{
-  color: white;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 35px;
-  margin-left: 20px;
+ .safeness-header{
+     color: white;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 35px;
+     margin-left: 20px;
 }
-
-.safeness-paragraph{
-  color: #ffffff;
-  font-family:'Ubuntu', sans-serif;
-  font-size: 16px;
-  /* margin-left: 50px; */
-  margin-top: 5px;
-
+ .safeness-paragraph{
+     color: #ffffff;
+     font-family:'Ubuntu', sans-serif;
+     font-size: 16px;
+    /* margin-left: 50px;
+     */
+     margin-top: 5px;
 }
-
-.eternity-sign,
-.safety-sign,
-.speed-sign {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+ .eternity-sign, .safety-sign, .speed-sign {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
 }
-
-h3{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
+ h3{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 14px;
+     justify-content: center;
+     align-items: center;
+     color: #ffffff;
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
 }
-
-h3:first-of-type {
-  margin-top: 80px;
+ h3:first-of-type {
+     margin-top: 80px;
 }
-
-@media (min-width: 768px) {
-
-
-  .header > img{
-    width: 100%;
-  }
-
-  .header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .eternity-sign,
-  .safety-sign,
-  .speed-sign {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .eternal > img{
-    width: 75%;
-  }
-
-  .eternal{
-    width: 25%;
-    display: flex;
-    margin-left: 45px;
-  }
-
-  .fast > img{
-    width: 40%;
-  }
-
-  .fast{
-    width: 40%;
-    margin-top: 70px;
-    margin-left: 170px;
-    display: flex;
-  }
-
-  .safe > img{
-    width: 40%;
-  }
-
-  .safe{
-    width: 40%;
-    margin-top: 70px;
-    margin-left: 190px;
-    display: flex;
-  }
-
-  .suggestion{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    text-align: left;
-  }
-
-  .suggestion h2 {
-    margin-left: 50px;
-    font-size: 40px;
-  }
-
-  .suggestion p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-
-  .speed{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    text-align: left;
-  }
-
-  .speed h2 {
-    margin-left: 50px;
-    font-size: 40px;
-  }
-
-  .speed p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-
-  .safety{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    text-align: left;
-  }
-
-  .safety h2 {
-    margin-left: 50px;
-    font-size: 40px;
-  }
-
-  .safety p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-
-  h3{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  h3:first-of-type {
-    margin-top: 80px;
-  }
-
-@media (min-width: 1024px){
-  .header > img{
-    width: 100%;
-  }
-
-  .header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .eternity-sign,
-  .safety-sign,
-  .speed-sign {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .eternal > img{
-    width: 75%;
-  }
-
-  .eternal{
-    width: 25%;
-    margin-left: 80px;
-
-  }
-
-  .fast > img{
-    width: 40%;
-  }
-
-  .fast{
-    width: 40%;
-    margin-top: 140px;
-    margin-left: 250px;
-    display: flex;
-  }
-
-  .safe > img{
-    width: 50%;
-  }
-
-  .safe{
-    width: 50%;
-    margin-top: 140px;
-    margin-left: 280px;
-    display: flex;
-  }
-
-  .suggestion{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    text-align: left;
-  }
-
-  .suggestion h2 {
-    margin-left: 50px;
-    font-size: 65px;
-  }
-
-  .suggestion p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-  .speed{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    text-align: left;
-  }
-
-  .speed h2 {
-    margin-left: 50px;
-    font-size: 65px;
-  }
-
-  .speed p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-
-  .safety{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 65px;
-    text-align: left;
-  }
-
-  .safety h2 {
-    margin-left: 50px;
-    font-size: 80px;
-  }
-
-  .safety p{
-    color: #ffffff;
-    font-family:'Ubuntu', sans-serif;
-    font-size: 35px;
-    margin-left: 50px;
-    margin-top: 5px;
-    width: 80%;
-  }
-
-  h3{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  h3:first-of-type {
-    margin-top: 100px;
-  }
-
-  @media (min-width: 1440px){
-    .header > img{
-      width: 100%;
+ @media (min-width: 768px) {
+     .header > img{
+         width: 100%;
     }
-
-    .header{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     .header{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
     }
-
-    .about{
-      font-size: 25px;
+     .about{
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 14px;
+         justify-content: center;
+         align-items: center;
+         color: #ffffff;
+         margin-top: 5px;
+         display: flex;
+         flex-direction: column;
     }
-
-    .eternity-sign,
-    .safety-sign,
-    .speed-sign {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+     .eternity-sign, .safety-sign, .speed-sign {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
     }
-
-    .eternal > img{
-      width: 75%;
+     .eternal > img{
+         width: 75%;
     }
-
-    .eternal{
-      width: 25%;
-      margin-left: 100px;
-
+     .eternal{
+         width: 25%;
+         display: flex;
+         margin-left: 45px;
     }
-
-    .fast > img{
-      width: 40%;
+     .fast > img{
+         width: 40%;
     }
-
-    .fast{
-      width: 40%;
-      margin-top: 140px;
-      margin-left: 350px;
-      display: flex;
+     .fast{
+         width: 40%;
+         margin-top: 70px;
+         margin-left: 170px;
+         display: flex;
     }
-
-    .safe > img{
-      width: 60%;
+     .safe > img{
+         width: 40%;
     }
-
-    .safe{
-      width: 60%;
-      margin-top: 140px;
-      margin-left: 370px;
-      display: flex;
+     .safe{
+         width: 40%;
+         margin-top: 70px;
+         margin-left: 190px;
+         display: flex;
     }
-
-    .suggestion{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 35px;
-      text-align: left;
+     .suggestion{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 35px;
+         text-align: left;
     }
-
-    .suggestion h2 {
-      margin-left: 50px;
-      font-size: 80px;
+     .suggestion h2 {
+         margin-left: 50px;
+         font-size: 40px;
     }
-
-    .suggestion p{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 40px;
-      margin-left: 50px;
-      margin-top: 5px;
-      width: 80%;
+     .suggestion p{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 20px;
+         margin-left: 50px;
+         margin-top: 5px;
+         width: 80%;
     }
-    .speed{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 35px;
-      text-align: left;
+     .speed{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 35px;
+         text-align: left;
     }
-
-    .speed h2 {
-      margin-left: 50px;
-      font-size: 80px;
+     .speed h2 {
+         margin-left: 50px;
+         font-size: 40px;
     }
-
-    .speed p{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 40px;
-      margin-left: 50px;
-      margin-top: 5px;
-      width: 80%;
+     .speed p{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 20px;
+         margin-left: 50px;
+         margin-top: 5px;
+         width: 80%;
     }
-
-    .safety{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 65px;
-      text-align: left;
+     .safety{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 35px;
+         text-align: left;
     }
-
-    .safety h2 {
-      margin-left: 50px;
-      font-size: 80px;
+     .safety h2 {
+         margin-left: 50px;
+         font-size: 40px;
     }
-
-    .safety p{
-      color: #ffffff;
-      font-family:'Ubuntu', sans-serif;
-      font-size: 40px;
-      margin-left: 50px;
-      margin-top: 5px;
-      width: 80%;
+     .safety p{
+         color: #ffffff;
+         font-family:'Ubuntu', sans-serif;
+         font-size: 20px;
+         margin-left: 50px;
+         margin-top: 5px;
+         width: 80%;
     }
-
-    h3{
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 30px;
-      justify-content: center;
-      align-items: center;
-      color: #ffffff;
-      margin-top: 10px;
-      display: flex;
-      flex-direction: column;
+     h3{
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 18px;
+         justify-content: center;
+         align-items: center;
+         color: #ffffff;
+         margin-top: 10px;
+         display: flex;
+         flex-direction: column;
     }
-
-    h3:first-of-type {
-      margin-top: 100px;
+     h3:first-of-type {
+         margin-top: 80px;
     }
-
-  }
+     @media (min-width: 1024px){
+         .header > img{
+             width: 100%;
+        }
+         .header{
+             width: 100%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+         .about{
+             font-family: 'Ubuntu', sans-serif;
+             font-size: 20px;
+             justify-content: center;
+             align-items: center;
+             color: #ffffff;
+             margin-top: 5px;
+             display: flex;
+             flex-direction: column;
+        }
+         .eternity-sign, .safety-sign, .speed-sign {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+        }
+         .eternal > img{
+             width: 75%;
+        }
+         .eternal{
+             width: 25%;
+             margin-left: 80px;
+        }
+         .fast > img{
+             width: 40%;
+        }
+         .fast{
+             width: 40%;
+             margin-top: 140px;
+             margin-left: 240px;
+             display: flex;
+        }
+         .safe > img{
+             width: 50%;
+        }
+         .safe{
+             width: 50%;
+             margin-top: 140px;
+             margin-left: 260px;
+             display: flex;
+        }
+         .suggestion{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 35px;
+             text-align: left;
+        }
+         .suggestion h2 {
+             margin-left: 50px;
+             font-size: 65px;
+        }
+         .suggestion p{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 30px;
+             margin-left: 50px;
+             margin-top: 5px;
+             width: 80%;
+        }
+         .speed{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 35px;
+             text-align: left;
+        }
+         .speed h2 {
+             margin-left: 50px;
+             font-size: 65px;
+        }
+         .speed p{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 35px;
+             margin-left: 50px;
+             margin-top: 5px;
+             width: 80%;
+        }
+         .safety{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 65px;
+             text-align: left;
+        }
+         .safety h2 {
+             margin-left: 50px;
+             font-size: 80px;
+        }
+         .safety p{
+             color: #ffffff;
+             font-family:'Ubuntu', sans-serif;
+             font-size: 35px;
+             margin-left: 50px;
+             margin-top: 5px;
+             width: 80%;
+        }
+         h3{
+             font-family: 'Ubuntu', sans-serif;
+             font-size: 25px;
+             justify-content: center;
+             align-items: center;
+             color: #ffffff;
+             margin-top: 10px;
+             display: flex;
+             flex-direction: column;
+        }
+         h3:first-of-type {
+             margin-top: 100px;
+        }
+         @media (min-width: 1440px){
+             .header > img{
+                 width: 100%;
+            }
+             .header{
+                 width: 100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+            }
+             .about{
+                 font-size: 25px;
+            }
+             .eternity-sign, .safety-sign, .speed-sign {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+            }
+             .eternal > img{
+                 width: 75%;
+            }
+             .eternal{
+                 width: 25%;
+                 margin-left: 100px;
+            }
+             .fast > img{
+                 width: 40%;
+            }
+             .fast{
+                 width: 40%;
+                 margin-top: 140px;
+                 margin-left: 350px;
+                 display: flex;
+            }
+             .safe > img{
+                 width: 60%;
+            }
+             .safe{
+                 width: 60%;
+                 margin-top: 140px;
+                 margin-left: 370px;
+                 display: flex;
+            }
+             .suggestion{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 35px;
+                 text-align: left;
+            }
+             .suggestion h2 {
+                 margin-left: 50px;
+                 font-size: 80px;
+            }
+             .suggestion p{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 40px;
+                 margin-left: 50px;
+                 margin-top: 5px;
+                 width: 80%;
+            }
+             .speed{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 35px;
+                 text-align: left;
+            }
+             .speed h2 {
+                 margin-left: 50px;
+                 font-size: 80px;
+            }
+             .speed p{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 40px;
+                 margin-left: 50px;
+                 margin-top: 5px;
+                 width: 80%;
+            }
+             .safety{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 65px;
+                 text-align: left;
+            }
+             .safety h2 {
+                 margin-left: 50px;
+                 font-size: 80px;
+            }
+             .safety p{
+                 color: #ffffff;
+                 font-family:'Ubuntu', sans-serif;
+                 font-size: 40px;
+                 margin-left: 50px;
+                 margin-top: 5px;
+                 width: 80%;
+            }
+             h3{
+                 font-family: 'Ubuntu', sans-serif;
+                 font-size: 30px;
+                 justify-content: center;
+                 align-items: center;
+                 color: #ffffff;
+                 margin-top: 10px;
+                 display: flex;
+                 flex-direction: column;
+            }
+             h3:first-of-type {
+                 margin-top: 100px;
+            }
+        }
